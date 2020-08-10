@@ -7,7 +7,7 @@ function sendMail($mail)
 		
 		$to = $mail;
 		$subject = "Account Authentication";
-		$message = "Follow link to authenticate your account, Your have 24h to authentication. Otherwise delete account.";
+		$message = "Follow link to authenticate\r\n your account:\r\nYour have 24h to authentication. Otherwise delete account.";
 		$headers = "From: mail@mail.com";
 		
 		try {
